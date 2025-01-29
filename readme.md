@@ -6,14 +6,14 @@
 <div align="center">
   <a href="https://github.com/brenbren69/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/447757260_990962652670843_4179711778818529263_n.jpg" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Grade Management</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+
 </div>
 
 <br />
@@ -61,6 +61,11 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
+The Grade Management System is a website that allows students to input five grades, and it automatically calculates and displays their General Weighted Average (GWA).
+
+
+GUIDE QUESTIONS:
+
 - What is the project
 
    * A Grade Management System where users input their name and five grades to calculate and store their General Weighted Average (GWA).
@@ -76,18 +81,17 @@ Description of the project in details.
 
    * HTML creates the structure, CSS styles the interface, and JavaScript handles calculations and functionality.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
-
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Grade Input Fields
+- GWA Calculation
+- Result Display
+- Simple User Interface
+
+### Deployment Link
+
+https://brenbren69.github.io/AWD-Seatwork-1-6-MB-25/index.html
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -134,4 +138,6 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| HTML | Used to guide me to making a proper website. | https://www.w3schools.com/html/ |
+| CSS | Used to guide me to finish the code and to guide me for designing the website. | https://www.w3schools.com/css/ |
+| JAVASCRIPT | Used to help me understand the flow of the program. | https://www.w3schools.com/js/default.asp |
