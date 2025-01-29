@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+<body>
+    <!-- Button to navigate back to the home page -->
+    <a href="../../index.html" class="btn-primary">HOME</a>
+    
+    <div class="container">
+        <!-- Left side box for displaying results -->
+        <div class="left-box">
+            <h1>Result</h1>
+            <div class="p-g-t">
+                <!-- Placeholders for results: percentage, grade, and total -->
+                <h2>Percentage = <span class="per"></span></h2>
+                <h2>Grade = <span class="gra"></span></h2>
+                <h2>Total = <span class="to"></span></h2>
+            </div>
+        </div>
+
+        <!-- Right side box for user input -->
+        <div class="content">
+            <div class="right-box">
+                <!-- Input fields for grades in various subjects -->
+                <input type="number" id="c" placeholder="Web Design">
+                <input type="number" id="mt" placeholder="Math">
+                <input type="number" id="ph" placeholder="Physics">
+                <input type="number" id="ja" placeholder="Java">
+                <input type="number" id="csa" placeholder="Computer System Programming">
+                <!-- Button to calculate and show the results -->
+                <button type="button">Show Result</button>
+            </div>
+        </div>
+        
+        <!-- Empty container for additional results or messages -->
+        <div class="result">
+            <h2> </h2>
+        </div>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="./assets/js/scripts.js"></script>
+</body>
+</html>

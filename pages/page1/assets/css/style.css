@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* General reset and font settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: "Roboto", serif;
+}
+
+/* Button styling */
+.btn-primary {
+    display: inline-block;
+    padding: 30px 30px;
+    color: white;
+    background-color: #6AB187;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 2rem;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+/* Body styles for layout and background */
+body {
+    background-image: url(../../../../assets/img/locker.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-color: #A7BEAE;
+}
+
+/* Main container */
+.container {
+    background-color: #E7E8D1;
+    width: 1000px;
+    height: 500px;
+    box-shadow: 0px 10px 10px 0px #000;
+    border-radius: 10px;
+    position: relative;
+}
+
+/* Left box for results */
+.left-box {
+    position: absolute;
+    width: 250px;
+    height: 100%;
+    background-color: #B85042;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.left-box h1 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 3.5rem;
+    color: #ecf0f1;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+/* Results section in the left box */
+.p-g-t {
+    text-align: left;
+    display: grid;
+    place-content: center;
+    min-height: 30vh;
+}
+
+.p-g-t h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+
+/* Right box for user inputs */
+.right-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 300px;
+    width: calc(100% - 300px); /* Adjust width to fit next to left box */
+    height: 100%;
+}
+
+.right-box input {
+    width: 85%;
+    margin: 15px 0;
+    padding: 15px;
+    font-size: 1.2rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+/* Button styling in the right box */
+.right-box button {
+    padding: 15px 20px;
+    background-color: #A7BEAE;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+/* Hover effect for the button */
+.right-box button:hover {
+    background-color: #45a049;
+}
+
+/* Styling for result text */
+.result {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 1.3rem;
+}

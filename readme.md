@@ -4,7 +4,7 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/brenbren69/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
     <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
   </a>
@@ -20,7 +20,7 @@
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=brenbren69/AWD-Seatwork-1-6-MB-25)
 
 [![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
 
@@ -60,6 +60,21 @@
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
 Description of the project in details.
+
+- What is the project
+
+   * A Grade Management System where users input their name and five grades to calculate and store their General Weighted Average (GWA).
+
+- Whats the purpose
+
+   * To simplify grade calculation and management for users.
+- What are key components
+
+   * Input fields for name and grades, a GWA calculation function, and a display for results.
+
+- What technology used and how it is used
+
+   * HTML creates the structure, CSS styles the interface, and JavaScript handles calculations and functionality.
 
 Guiding Question:
 - What is the project

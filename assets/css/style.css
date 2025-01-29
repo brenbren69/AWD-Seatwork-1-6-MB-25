@@ -1,0 +1,103 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styles */
+body {
+    background-image: url(../img/white.avif);
+    background-size: cover;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header section */
+.header {
+    background-color: #454749;
+    color: white;
+    padding: 20px 0;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+}
+
+/* Main content spacing */
+.main-content {
+    margin: 20px 0;
+}
+
+/* Intro section */
+.intro p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #6AB187;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* Features section */
+.features {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #A7BEAE;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.features h2 {
+    font-size: 3.8rem;
+    margin-bottom: 10px;
+}
+
+.features ul {
+    list-style: none;
+}
+
+.features li {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* How it works section */
+.how-it-works {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #A7BEAE;
+    border-radius: 50px;
+}
+
+.how-it-works h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.how-it-works p {
+    font-size: 1rem;
+}
+
+/* Footer styles */
+.footer {
+    margin-top: 190px;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
